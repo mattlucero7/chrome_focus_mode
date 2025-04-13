@@ -2,6 +2,9 @@
 
 This Chrome extension helps you stay focused by allowing access only to specific websites like Gemini, Calendar, Tasks, and Google Accounts. Perfect for when you need to get things done without distractions! 🚀
 
+> [!IMPORTANT]
+> Does not work with Youtube but it breaks it enough that I wont want to use it anymore
+
 ## How to Install and Use
 
 This extension is not on the Chrome Web Store and must be loaded manually in Developer Mode.
