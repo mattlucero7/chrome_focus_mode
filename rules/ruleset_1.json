@@ -31,7 +31,7 @@
     },
     {
         "id": 2,
-        "priority": 2,
+        "priority": 10,
         "action": { "type": "block" },
         "condition": {
             "requestDomains": [
@@ -40,12 +40,12 @@
                 "ytimg.com",
                 "i.ytimg.com"
             ],
-            "resourceTypes": ["main_frame", "sub_frame", "media"]
+            "resourceTypes": ["main_frame", "sub_frame", "media", "script", "image"]
         }
     },
     {
         "id": 3,
-        "priority": 3,
+        "priority": 5,
         "action": { "type": "block" },
         "condition": {
             "urlFilter": "*://*/*",

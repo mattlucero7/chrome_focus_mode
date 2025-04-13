@@ -1,7 +1,7 @@
 // background.js (minimal for DNR)
-console.log("Google Whitelist Extension Service Worker Started.");
+console.log("Matt Focus Mode Extension Service Worker Started.");
 
-// Optional: Log installed rules on startup (for debugging)
+// ill keep this for now, not working for yt yet
 chrome.declarativeNetRequest.getEnabledRulesets(ids => {
   console.log("Enabled DNR rulesets:", ids);
 });
