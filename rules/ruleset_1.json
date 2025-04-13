@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "allow" },
+        "condition": {
+            "requestDomains": [
+                "gemini.google.com",
+                "calendar.google.com",
+                "tasks.google.com",
+                "accounts.google.com",
+                "ssl.gstatic.com"
+            ],
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket",
+                "webtransport",
+                "webbundle",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 2,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*://*/*",
+            "resourceTypes": ["main_frame"]
+        }
+    }
+]
