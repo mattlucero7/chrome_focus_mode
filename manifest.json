@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Matt's Focus Mode",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Allows access only to Gemini, Calendar, Tasks, and Google Accounts. Focus! 🧘‍♂️✨",
   "permissions": [
     "declarativeNetRequest" 
